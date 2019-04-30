@@ -53,7 +53,7 @@ export default {
   border-radius: 3px;
 }
 
-$img-slug: '~/img/hawaii' !default;
+$img-slug: '../static/img/hawaii' !default;
 $class-slug: item !default;
 
 @for $i from 1 through 5 {

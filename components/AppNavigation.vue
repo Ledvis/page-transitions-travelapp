@@ -127,31 +127,12 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    background: -moz-radial-gradient(
-      center,
-      ellipse cover,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 36%,
-      rgba(0, 0, 0, 0.65) 100%
-    ); /* FF3.6-15 */
-    background: -webkit-radial-gradient(
-      center,
-      ellipse cover,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 36%,
-      rgba(0, 0, 0, 0.65) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(
       ellipse at center,
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0) 36%,
       rgba(0, 0, 0, 0.65) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(
-        startColorstr='#00000000',
-        endColorstr='#a6000000',
-        GradientType=1
-      ); /* IE6-9 fallback on horizontal gradient */
+    );
     opacity: 0.6;
   }
   &:after {
@@ -173,13 +154,13 @@ header {
   height: 300px;
 }
 .header-img1 {
-  @include header("~/img/header1.jpg");
+  @include header("../static/img/header1.jpg");
 }
 .header-img2 {
-  @include header("~/img/header2.jpg");
+  @include header("../static/img/header2.jpg");
 }
 .header-img3 {
-  @include header("~/img/header3.jpg");
+  @include header("../static/img/header3.jpg");
 }
 .bk-enter-active,
 .bk-leave-active {

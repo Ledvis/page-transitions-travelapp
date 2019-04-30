@@ -56,7 +56,7 @@ p,
   margin: 10px 0;
 }
 .main-img {
-  background: url("~/img/header1.jpg") center center;
+  background: url("../static/img/header1.jpg") center center;
   background-size: cover;
   width: 100%;
   height: 240px;
